@@ -1,0 +1,33 @@
+[0.019s] Invoking command in '/home/user/colcon_ws/build/robot_speed_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user/colcon_ws/build/robot_speed_pkg -- -j4 -l4
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target speed_publisher[0m
+[0.098s] [ 25%] [32mBuilding CXX object CMakeFiles/speed_monitor.dir/src/speed_monitor.cpp.o[0m
+[0.112s] [ 75%] Built target speed_publisher
+[3.828s] [01m[K/home/user/colcon_ws/src/robot_speed_pkg/src/speed_monitor.cpp:86:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[3.828s]    86 | }
+[3.828s]       |  [01;31m[K^[m[K
+[3.828s]       |  [32m[K;[m[K
+[3.829s] [01m[K/home/user/colcon_ws/src/robot_speed_pkg/src/speed_monitor.cpp:[m[K In constructor ‘[01m[KSpeedMonitor::SpeedMonitor()[m[K’:
+[3.829s] [01m[K/home/user/colcon_ws/src/robot_speed_pkg/src/speed_monitor.cpp:30:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SpeedMonitor[m[K’ has no member named ‘[01m[Kcreate_subscripiton[m[K’; did you mean ‘[01m[Kcreate_subscription[m[K’?
+[3.830s]    30 |         sub_ = this->[01;31m[Kcreate_subscripiton[m[K<std_msgs::msg::Int32>("/robot_speed",10,std::bind(&SpeedMonitor::msg_callback,this,std::placeholders::_1));
+[3.830s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.830s]       |                      [32m[Kcreate_subscription[m[K
+[3.830s] [01m[K/home/user/colcon_ws/src/robot_speed_pkg/src/speed_monitor.cpp:30:62:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[3.830s]    30 |         sub_ = this->create_subscripiton<std_msgs::msg::Int32[01;31m[K>[m[K("/robot_speed",10,std::bind(&SpeedMonitor::msg_callback,this,std::placeholders::_1));
+[3.830s]       |                                                              [01;31m[K^[m[K
+[3.831s] [01m[K/home/user/colcon_ws/src/robot_speed_pkg/src/speed_monitor.cpp:30:64:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[3.831s]    30 |         sub_ = this->create_subscripiton<std_msgs::msg::Int32>([01;35m[K"/robot_speed"[m[K,10,std::bind(&SpeedMonitor::msg_callback,this,std::placeholders::_1));
+[3.831s]       |                                                                [01;35m[K^~~~~~~~~~~~~~[m[K
+[3.842s] [01m[K/home/user/colcon_ws/src/robot_speed_pkg/src/speed_monitor.cpp:30:146:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[3.843s]    30 |         sub_ = this->create_subscripiton<std_msgs::msg::Int32>("/robot_speed",10,std::bind(&SpeedMonitor::msg_callback,this,std::placeholders::_1[01;35m[K)[m[K);
+[3.843s]       |                                                                                                                                                  [01;35m[K^[m[K
+[3.852s] [01m[K/home/user/colcon_ws/src/robot_speed_pkg/src/speed_monitor.cpp:[m[K In member function ‘[01m[Kvoid SpeedMonitor::msg_callback(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.852s] [01m[K/home/user/colcon_ws/src/robot_speed_pkg/src/speed_monitor.cpp:39:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed[m[K’ was not declared in this scope
+[3.853s]    39 |         [01;31m[Kspeed[m[K.queue_.push(recv_speed);
+[3.853s]       |         [01;31m[K^~~~~[m[K
+[3.858s] [01m[K/home/user/colcon_ws/src/robot_speed_pkg/src/speed_monitor.cpp:80:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[3.859s]    80 |         [01;31m[K}[m[K
+[3.859s]       |         [01;31m[K^[m[K
+[4.645s] gmake[2]: *** [CMakeFiles/speed_monitor.dir/build.make:76：CMakeFiles/speed_monitor.dir/src/speed_monitor.cpp.o] 错误 1
+[4.645s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/speed_monitor.dir/all] 错误 2
+[4.645s] gmake: *** [Makefile:146：all] 错误 2
+[4.648s] Invoked command in '/home/user/colcon_ws/build/robot_speed_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user/colcon_ws/build/robot_speed_pkg -- -j4 -l4

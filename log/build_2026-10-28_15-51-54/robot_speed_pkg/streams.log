@@ -1,0 +1,29 @@
+[0.016s] Invoking command in '/home/user/colcon_ws/build/robot_speed_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user/colcon_ws/build/robot_speed_pkg -- -j4 -l4
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target speed_monitor[0m
+[0.095s] [ 50%] Built target speed_publisher
+[0.102s] [ 75%] [32mBuilding CXX object CMakeFiles/speed_monitor.dir/src/speed_monitor.cpp.o[0m
+[12.323s] [100%] [32m[1mLinking CXX executable speed_monitor[0m
+[12.978s] [100%] Built target speed_monitor
+[12.992s] Invoked command in '/home/user/colcon_ws/build/robot_speed_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user/colcon_ws/build/robot_speed_pkg -- -j4 -l4
+[13.006s] Invoking command in '/home/user/colcon_ws/build/robot_speed_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/user/colcon_ws/build/robot_speed_pkg
+[13.015s] -- Install configuration: ""
+[13.015s] -- Installing: /home/user/colcon_ws/install/robot_speed_pkg/lib/robot_speed_pkg/speed_monitor
+[13.020s] -- Set runtime path of "/home/user/colcon_ws/install/robot_speed_pkg/lib/robot_speed_pkg/speed_monitor" to ""
+[13.020s] -- Installing: /home/user/colcon_ws/install/robot_speed_pkg/lib/robot_speed_pkg/speed_publisher
+[13.021s] -- Set runtime path of "/home/user/colcon_ws/install/robot_speed_pkg/lib/robot_speed_pkg/speed_publisher" to ""
+[13.021s] -- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/ament_index/resource_index/package_run_dependencies/robot_speed_pkg
+[13.022s] -- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/ament_index/resource_index/parent_prefix_path/robot_speed_pkg
+[13.022s] -- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/robot_speed_pkg/environment/ament_prefix_path.sh
+[13.022s] -- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/robot_speed_pkg/environment/ament_prefix_path.dsv
+[13.022s] -- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/robot_speed_pkg/environment/path.sh
+[13.022s] -- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/robot_speed_pkg/environment/path.dsv
+[13.023s] -- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/robot_speed_pkg/local_setup.bash
+[13.023s] -- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/robot_speed_pkg/local_setup.sh
+[13.023s] -- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/robot_speed_pkg/local_setup.zsh
+[13.023s] -- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/robot_speed_pkg/local_setup.dsv
+[13.023s] -- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/robot_speed_pkg/package.dsv
+[13.023s] -- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/ament_index/resource_index/packages/robot_speed_pkg
+[13.024s] -- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/robot_speed_pkg/cmake/robot_speed_pkgConfig.cmake
+[13.024s] -- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/robot_speed_pkg/cmake/robot_speed_pkgConfig-version.cmake
+[13.024s] -- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/robot_speed_pkg/package.xml
+[13.026s] Invoked command in '/home/user/colcon_ws/build/robot_speed_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/user/colcon_ws/build/robot_speed_pkg

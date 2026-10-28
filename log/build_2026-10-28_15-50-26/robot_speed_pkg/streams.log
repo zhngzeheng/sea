@@ -1,0 +1,13 @@
+[0.020s] Invoking command in '/home/user/colcon_ws/build/robot_speed_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user/colcon_ws/build/robot_speed_pkg -- -j4 -l4
+[0.077s] [35m[1mConsolidate compiler generated dependencies of target speed_monitor[0m
+[0.095s] [ 50%] Built target speed_publisher
+[0.103s] [ 75%] [32mBuilding CXX object CMakeFiles/speed_monitor.dir/src/speed_monitor.cpp.o[0m
+[3.826s] [01m[K/home/user/colcon_ws/src/robot_speed_pkg/src/speed_monitor.cpp:[m[K In member function ‘[01m[Kvoid SpeedMonitor::msg_callback(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.826s] [01m[K/home/user/colcon_ws/src/robot_speed_pkg/src/speed_monitor.cpp:39:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed_queue_[m[K’ was not declared in this scope; did you mean ‘[01m[Kspeed_queue[m[K’?
+[3.826s]    39 |         [01;31m[Kspeed_queue_[m[K.push(recv_speed);
+[3.826s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[3.826s]       |         [32m[Kspeed_queue[m[K
+[7.584s] gmake[2]: *** [CMakeFiles/speed_monitor.dir/build.make:76：CMakeFiles/speed_monitor.dir/src/speed_monitor.cpp.o] 错误 1
+[7.585s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/speed_monitor.dir/all] 错误 2
+[7.585s] gmake: *** [Makefile:146：all] 错误 2
+[7.588s] Invoked command in '/home/user/colcon_ws/build/robot_speed_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user/colcon_ws/build/robot_speed_pkg -- -j4 -l4

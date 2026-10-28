@@ -1,0 +1,14 @@
+[01m[K/home/user/colcon_ws/src/robot_speed_pkg/src/speed_monitor.cpp:2:9:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/Int32.hpp: 没有那个文件或目录
+    2 | #include[01;31m[K<std_msgs/msg/Int32.hpp>[m[K
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/speed_monitor.dir/build.make:76：CMakeFiles/speed_monitor.dir/src/speed_monitor.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/speed_monitor.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+[01m[K/home/user/colcon_ws/src/robot_speed_pkg/src/speed_publisher.cpp:[m[K In constructor ‘[01m[KSpeedPublisher::SpeedPublisher()[m[K’:
+[01m[K/home/user/colcon_ws/src/robot_speed_pkg/src/speed_publisher.cpp:18:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kidx_[m[K’
+   18 |     [01;31m[Kidx_[m[K = 0;
+      |     [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/speed_publisher.dir/build.make:76：CMakeFiles/speed_publisher.dir/src/speed_publisher.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/speed_publisher.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

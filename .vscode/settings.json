@@ -1,0 +1,4 @@
+{
+    "xml.downloadExternalResources.enabled": true,
+    "cmake.sourceDirectory": "/home/user/colcon_ws/src/robot_speed_pkg"
+}

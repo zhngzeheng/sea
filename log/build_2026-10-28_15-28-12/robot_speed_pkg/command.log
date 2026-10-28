@@ -1,0 +1,4 @@
+Invoking command in '/home/user/colcon_ws/build/robot_speed_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/user/colcon_ws/src/robot_speed_pkg -DCMAKE_INSTALL_PREFIX=/home/user/colcon_ws/install/robot_speed_pkg
+Invoked command in '/home/user/colcon_ws/build/robot_speed_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/user/colcon_ws/src/robot_speed_pkg -DCMAKE_INSTALL_PREFIX=/home/user/colcon_ws/install/robot_speed_pkg
+Invoking command in '/home/user/colcon_ws/build/robot_speed_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user/colcon_ws/build/robot_speed_pkg -- -j4 -l4
+Invoked command in '/home/user/colcon_ws/build/robot_speed_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user/colcon_ws/build/robot_speed_pkg -- -j4 -l4

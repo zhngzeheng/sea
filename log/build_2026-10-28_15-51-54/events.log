@@ -1,0 +1,167 @@
+[0.000000] (-) TimerEvent: {}
+[0.000447] (robot_speed_pkg) JobQueued: {'identifier': 'robot_speed_pkg', 'dependencies': OrderedDict()}
+[0.000850] (robot_speed_pkg) JobStarted: {'identifier': 'robot_speed_pkg'}
+[0.012306] (robot_speed_pkg) JobProgress: {'identifier': 'robot_speed_pkg', 'progress': 'cmake'}
+[0.012490] (robot_speed_pkg) JobProgress: {'identifier': 'robot_speed_pkg', 'progress': 'build'}
+[0.015885] (robot_speed_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/colcon_ws/build/robot_speed_pkg', '--', '-j4', '-l4'], 'cwd': '/home/user/colcon_ws/build/robot_speed_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('EGL_PLATFORM', 'wayland'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'user'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('CHROME_DESKTOP', 'com.microsoft.VSCode.desktop'), ('OLDPWD', '/home/user/colcon_ws/src/robot_speed_pkg'), ('TERM_PROGRAM_VERSION', '1.142.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/com.microsoft.VSCode.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1237'), ('SYSTEMD_EXEC_PID', '1404'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1903'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/user/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('JOURNAL_STREAM', '8:12505'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/user-P142:@/tmp/.ICE-unix/1380,unix/user-P142:/tmp/.ICE-unix/1380'), ('INVOCATION_ID', 'b861e8a7b4b54e36b973fe5474b6e404'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DWI6X3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-45bd1ba0ae.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/user/colcon_ws/install/robot_speed_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/colcon_ws/build/robot_speed_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/user/colcon_ws/install/robot_speed_pkg:/opt/ros/humble')]), 'shell': False}
+[0.077199] (robot_speed_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target speed_monitor\x1b[0m\n'}
+[0.096198] (robot_speed_pkg) StdoutLine: {'line': b'[ 50%] Built target speed_publisher\n'}
+[0.099712] (-) TimerEvent: {}
+[0.102685] (robot_speed_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/speed_monitor.dir/src/speed_monitor.cpp.o\x1b[0m\n'}
+[0.199827] (-) TimerEvent: {}
+[0.300237] (-) TimerEvent: {}
+[0.400638] (-) TimerEvent: {}
+[0.501019] (-) TimerEvent: {}
+[0.601418] (-) TimerEvent: {}
+[0.701851] (-) TimerEvent: {}
+[0.802234] (-) TimerEvent: {}
+[0.902814] (-) TimerEvent: {}
+[1.003250] (-) TimerEvent: {}
+[1.103589] (-) TimerEvent: {}
+[1.204070] (-) TimerEvent: {}
+[1.304487] (-) TimerEvent: {}
+[1.404896] (-) TimerEvent: {}
+[1.505365] (-) TimerEvent: {}
+[1.605794] (-) TimerEvent: {}
+[1.706179] (-) TimerEvent: {}
+[1.806623] (-) TimerEvent: {}
+[1.907002] (-) TimerEvent: {}
+[2.007411] (-) TimerEvent: {}
+[2.107789] (-) TimerEvent: {}
+[2.208173] (-) TimerEvent: {}
+[2.308586] (-) TimerEvent: {}
+[2.408966] (-) TimerEvent: {}
+[2.509380] (-) TimerEvent: {}
+[2.609852] (-) TimerEvent: {}
+[2.710313] (-) TimerEvent: {}
+[2.810749] (-) TimerEvent: {}
+[2.911146] (-) TimerEvent: {}
+[3.011580] (-) TimerEvent: {}
+[3.112001] (-) TimerEvent: {}
+[3.212377] (-) TimerEvent: {}
+[3.312736] (-) TimerEvent: {}
+[3.413098] (-) TimerEvent: {}
+[3.513466] (-) TimerEvent: {}
+[3.613846] (-) TimerEvent: {}
+[3.714261] (-) TimerEvent: {}
+[3.814659] (-) TimerEvent: {}
+[3.915042] (-) TimerEvent: {}
+[4.015413] (-) TimerEvent: {}
+[4.115788] (-) TimerEvent: {}
+[4.216165] (-) TimerEvent: {}
+[4.316546] (-) TimerEvent: {}
+[4.417004] (-) TimerEvent: {}
+[4.517377] (-) TimerEvent: {}
+[4.617738] (-) TimerEvent: {}
+[4.718103] (-) TimerEvent: {}
+[4.818634] (-) TimerEvent: {}
+[4.919001] (-) TimerEvent: {}
+[5.019356] (-) TimerEvent: {}
+[5.119760] (-) TimerEvent: {}
+[5.220169] (-) TimerEvent: {}
+[5.320609] (-) TimerEvent: {}
+[5.420961] (-) TimerEvent: {}
+[5.521356] (-) TimerEvent: {}
+[5.621819] (-) TimerEvent: {}
+[5.722188] (-) TimerEvent: {}
+[5.822602] (-) TimerEvent: {}
+[5.923026] (-) TimerEvent: {}
+[6.023425] (-) TimerEvent: {}
+[6.123834] (-) TimerEvent: {}
+[6.224233] (-) TimerEvent: {}
+[6.324642] (-) TimerEvent: {}
+[6.425019] (-) TimerEvent: {}
+[6.525364] (-) TimerEvent: {}
+[6.625777] (-) TimerEvent: {}
+[6.726179] (-) TimerEvent: {}
+[6.826608] (-) TimerEvent: {}
+[6.927018] (-) TimerEvent: {}
+[7.027405] (-) TimerEvent: {}
+[7.127846] (-) TimerEvent: {}
+[7.228202] (-) TimerEvent: {}
+[7.328598] (-) TimerEvent: {}
+[7.429013] (-) TimerEvent: {}
+[7.529373] (-) TimerEvent: {}
+[7.629770] (-) TimerEvent: {}
+[7.730171] (-) TimerEvent: {}
+[7.830607] (-) TimerEvent: {}
+[7.930983] (-) TimerEvent: {}
+[8.031355] (-) TimerEvent: {}
+[8.131886] (-) TimerEvent: {}
+[8.232265] (-) TimerEvent: {}
+[8.332625] (-) TimerEvent: {}
+[8.433004] (-) TimerEvent: {}
+[8.533430] (-) TimerEvent: {}
+[8.633808] (-) TimerEvent: {}
+[8.734227] (-) TimerEvent: {}
+[8.834595] (-) TimerEvent: {}
+[8.934960] (-) TimerEvent: {}
+[9.035333] (-) TimerEvent: {}
+[9.135817] (-) TimerEvent: {}
+[9.236216] (-) TimerEvent: {}
+[9.336600] (-) TimerEvent: {}
+[9.436993] (-) TimerEvent: {}
+[9.537394] (-) TimerEvent: {}
+[9.637759] (-) TimerEvent: {}
+[9.738165] (-) TimerEvent: {}
+[9.838559] (-) TimerEvent: {}
+[9.938926] (-) TimerEvent: {}
+[10.039299] (-) TimerEvent: {}
+[10.139705] (-) TimerEvent: {}
+[10.240079] (-) TimerEvent: {}
+[10.340493] (-) TimerEvent: {}
+[10.440965] (-) TimerEvent: {}
+[10.541396] (-) TimerEvent: {}
+[10.641814] (-) TimerEvent: {}
+[10.742245] (-) TimerEvent: {}
+[10.842665] (-) TimerEvent: {}
+[10.943082] (-) TimerEvent: {}
+[11.043487] (-) TimerEvent: {}
+[11.143937] (-) TimerEvent: {}
+[11.244334] (-) TimerEvent: {}
+[11.344759] (-) TimerEvent: {}
+[11.445172] (-) TimerEvent: {}
+[11.545608] (-) TimerEvent: {}
+[11.646016] (-) TimerEvent: {}
+[11.746414] (-) TimerEvent: {}
+[11.846822] (-) TimerEvent: {}
+[11.947191] (-) TimerEvent: {}
+[12.047574] (-) TimerEvent: {}
+[12.147953] (-) TimerEvent: {}
+[12.248312] (-) TimerEvent: {}
+[12.324219] (robot_speed_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable speed_monitor\x1b[0m\n'}
+[12.348426] (-) TimerEvent: {}
+[12.448805] (-) TimerEvent: {}
+[12.549172] (-) TimerEvent: {}
+[12.649662] (-) TimerEvent: {}
+[12.749997] (-) TimerEvent: {}
+[12.850501] (-) TimerEvent: {}
+[12.950899] (-) TimerEvent: {}
+[12.978501] (robot_speed_pkg) StdoutLine: {'line': b'[100%] Built target speed_monitor\n'}
+[12.992730] (robot_speed_pkg) CommandEnded: {'returncode': 0}
+[12.993603] (robot_speed_pkg) JobProgress: {'identifier': 'robot_speed_pkg', 'progress': 'install'}
+[13.005093] (robot_speed_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/colcon_ws/build/robot_speed_pkg'], 'cwd': '/home/user/colcon_ws/build/robot_speed_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('EGL_PLATFORM', 'wayland'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'user'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('CHROME_DESKTOP', 'com.microsoft.VSCode.desktop'), ('OLDPWD', '/home/user/colcon_ws/src/robot_speed_pkg'), ('TERM_PROGRAM_VERSION', '1.142.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/com.microsoft.VSCode.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1237'), ('SYSTEMD_EXEC_PID', '1404'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1903'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/user/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('JOURNAL_STREAM', '8:12505'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/user-P142:@/tmp/.ICE-unix/1380,unix/user-P142:/tmp/.ICE-unix/1380'), ('INVOCATION_ID', 'b861e8a7b4b54e36b973fe5474b6e404'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DWI6X3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-45bd1ba0ae.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/user/colcon_ws/install/robot_speed_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/colcon_ws/build/robot_speed_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/user/colcon_ws/install/robot_speed_pkg:/opt/ros/humble')]), 'shell': False}
+[13.015504] (robot_speed_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.015795] (robot_speed_pkg) StdoutLine: {'line': b'-- Installing: /home/user/colcon_ws/install/robot_speed_pkg/lib/robot_speed_pkg/speed_monitor\n'}
+[13.020576] (robot_speed_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/user/colcon_ws/install/robot_speed_pkg/lib/robot_speed_pkg/speed_monitor" to ""\n'}
+[13.020800] (robot_speed_pkg) StdoutLine: {'line': b'-- Installing: /home/user/colcon_ws/install/robot_speed_pkg/lib/robot_speed_pkg/speed_publisher\n'}
+[13.022147] (robot_speed_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/user/colcon_ws/install/robot_speed_pkg/lib/robot_speed_pkg/speed_publisher" to ""\n'}
+[13.022342] (robot_speed_pkg) StdoutLine: {'line': b'-- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/ament_index/resource_index/package_run_dependencies/robot_speed_pkg\n'}
+[13.022527] (robot_speed_pkg) StdoutLine: {'line': b'-- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/ament_index/resource_index/parent_prefix_path/robot_speed_pkg\n'}
+[13.022795] (robot_speed_pkg) StdoutLine: {'line': b'-- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/robot_speed_pkg/environment/ament_prefix_path.sh\n'}
+[13.022973] (robot_speed_pkg) StdoutLine: {'line': b'-- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/robot_speed_pkg/environment/ament_prefix_path.dsv\n'}
+[13.023135] (robot_speed_pkg) StdoutLine: {'line': b'-- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/robot_speed_pkg/environment/path.sh\n'}
+[13.023290] (robot_speed_pkg) StdoutLine: {'line': b'-- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/robot_speed_pkg/environment/path.dsv\n'}
+[13.023466] (robot_speed_pkg) StdoutLine: {'line': b'-- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/robot_speed_pkg/local_setup.bash\n'}
+[13.023648] (robot_speed_pkg) StdoutLine: {'line': b'-- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/robot_speed_pkg/local_setup.sh\n'}
+[13.023825] (robot_speed_pkg) StdoutLine: {'line': b'-- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/robot_speed_pkg/local_setup.zsh\n'}
+[13.024003] (robot_speed_pkg) StdoutLine: {'line': b'-- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/robot_speed_pkg/local_setup.dsv\n'}
+[13.024167] (robot_speed_pkg) StdoutLine: {'line': b'-- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/robot_speed_pkg/package.dsv\n'}
+[13.024432] (robot_speed_pkg) StdoutLine: {'line': b'-- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/ament_index/resource_index/packages/robot_speed_pkg\n'}
+[13.024653] (robot_speed_pkg) StdoutLine: {'line': b'-- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/robot_speed_pkg/cmake/robot_speed_pkgConfig.cmake\n'}
+[13.024809] (robot_speed_pkg) StdoutLine: {'line': b'-- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/robot_speed_pkg/cmake/robot_speed_pkgConfig-version.cmake\n'}
+[13.024961] (robot_speed_pkg) StdoutLine: {'line': b'-- Installing: /home/user/colcon_ws/install/robot_speed_pkg/share/robot_speed_pkg/package.xml\n'}
+[13.027028] (robot_speed_pkg) CommandEnded: {'returncode': 0}
+[13.050989] (-) TimerEvent: {}
+[13.051474] (robot_speed_pkg) JobEnded: {'identifier': 'robot_speed_pkg', 'rc': 0}
+[13.052340] (-) EventReactorShutdown: {}

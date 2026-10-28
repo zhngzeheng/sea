@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ea1f98cd3d6e7cf1f8fe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "robot_speed_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_speed_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_speed_pkg_uninstall-1699be02482c565a5e59.json",
+					"name" : "robot_speed_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "speed_monitor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-speed_monitor-f54c37ce939ac823fb3b.json",
+					"name" : "speed_monitor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "speed_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-speed_publisher-79dc1141f147ae8f8ab2.json",
+					"name" : "speed_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9dd832e81c35952a1a0c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/user/colcon_ws/build/robot_speed_pkg",
+		"source" : "/home/user/colcon_ws/src/robot_speed_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
